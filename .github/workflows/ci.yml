@@ -1,5 +1,7 @@
 name: CI
 
+on:
+        push:
 jobs:
         buil-and-push:
                 runs-on: ubuntu-latest
